@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: 'download.jpg'
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.bg-image-vertical {
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: auto 100%;
+  }
+  
+  @media (min-width: 1025px) {
+  .h-custom-2 {
+  height: 100%;
+  }
+  }
+
+  #loginboxchild{
+    height: 50vh;
+    width: 70%;
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 8%;
+  }
+  @media (min-width: 1025px) {
+    .h-custom {
+    height: 100vh !important;
+    }
+    }
+ /* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  background-color: #333;
+  color: #fff;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.navbar-logo img {
+  height: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.navbar-menu a:hover {
+  color: #00bcd4;
+}
+
+/* Content styles */
+.content {
+  margin-top: 80px;
+  padding: 20px;
+}
+
+/* Animation styles */
+.navbar-menu li {
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+/* (A) FIXED WRAPPER */
+.hwrap {
+  overflow: hidden; /* HIDE SCROLL BAR */
+  background: #eee;
+}
+ 
+/* (B) MOVING TICKER WRAPPER */
+.hmove { display: flex; }
+
+/* (C) ITEMS - INTO A LONG HORIZONTAL ROW */
+.hitem {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px;
+  text-align: center;
+}
+
+ 
+/* (D) ANIMATION - MOVE ITEMS FROM RIGHT TO LEFT */
+/* 4 ITEMS -400%, CHANGE THIS IF YOU ADD/REMOVE ITEMS */
+@keyframes tickerh {
+  0% { transform: translate3d(100%, 0, 0); }
+  100% { transform: translate3d(-400%, 0, 0); }
+}
+.hmove { animation: tickerh linear 30s infinite; }
+.hmove:hover { animation-play-state: paused; }
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.justify{
+  justify-content: center;
+  display: flex;
+}

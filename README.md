@@ -29,3 +29,25 @@ Welcome to the News Portal Website repository! This project is a full-stack web 
 7. Start the Frontend Server: npm start
 8. Access the Application:
   - Open a web browser and go to http://localhost:3000 to access the News Portal Website
+
+
+# OUTPUTS
+* signup page
+  
+![21](https://github.com/Priya-Sharma11/News-Portal-Website/assets/83345365/d1020521-df92-4d75-9a91-d43336c3e499)
+
+* Home page
+
+![20](https://github.com/Priya-Sharma11/News-Portal-Website/assets/83345365/bcc8c45b-153b-4b0b-877c-275215e30372)
+
+* News Feed
+
+![15](https://github.com/Priya-Sharma11/News-Portal-Website/assets/83345365/88e4b4fa-3c21-4498-b1ab-7f993ab81976)
+
+* Profile
+
+![14](https://github.com/Priya-Sharma11/News-Portal-Website/assets/83345365/10a4e759-cdd2-43c0-a626-c2e5e12ab7bb)
+
+* Add news
+
+![12](https://github.com/Priya-Sharma11/News-Portal-Website/assets/83345365/367e79a9-a3bf-4020-a226-33425457aebc)
